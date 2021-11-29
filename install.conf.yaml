@@ -8,6 +8,8 @@
     ~/.bashrc: bashrc
     ~/.zshrc: zshrc
     ~/.vimrc: vimrc
+    ~/.config/kitty/dracula.conf: dracula.conf
+    ~/.config/kitty/kitty.conf: kitty.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
