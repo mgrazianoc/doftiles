@@ -3,5 +3,4 @@ Currently, the following environments are configured:
 - bashrc
 - zshrc
 - vimrc
-- config/kitty/dracula.conf
-- config/kitty/kitty.conf
+- kitty
