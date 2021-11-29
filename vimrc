@@ -74,6 +74,7 @@ source ~/.config/vim/plugins/vim-surround.vim
 source ~/.config/vim/plugins/nerdTree.vim
 source ~/.config/vim/plugins/fzf.vim
 source ~/.config/vim/plugins/floatterm.vim
+source ~/.config/vim/plugins/fugitive.vim
 
 call plug#end()
 
