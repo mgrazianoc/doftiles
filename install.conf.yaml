@@ -8,8 +8,15 @@
     ~/.bashrc: bashrc
     ~/.zshrc: zshrc
     ~/.vimrc: vimrc
-    ~/.config/kitty/dracula.conf: dracula.conf
-    ~/.config/kitty/kitty.conf: kitty.conf
+    ~/.config/vim/plugins/vim-airline.vim: ./config/vim/plugins/vim-airline.vim
+    ~/.config/vim/plugins/dracula.vim: ./config/vim/plugins/dracula.vim
+    ~/.config/vim/plugins/vim-surround.vim: ./config/vim/plugins/vim-surround.vim
+    ~/.config/vim/plugins/nerdTree.vim: ./config/vim/plugins/nerdTree.vim
+    ~/.config/vim/plugins/fzf.vim: ./config/vim/plugins/fzf.vim
+    ~/.config/vim/plugins/floatterm.vim: ./config/vim/plugins/floatterm.vim
+    ~/.config/vim/plugins/fugitive.vim: ./config/vim/plugins/fugitive.vim
+    ~/.config/kitty/dracula.conf: ./config/kitty/dracula.conf
+    ~/.config/kitty/kitty.conf: ./config/kitty/kitty.conf
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
