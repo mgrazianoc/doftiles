@@ -4,3 +4,5 @@ Currently, the following environments are configured:
 - zshrc
 - vimrc
 - kitty
+
+The plugins for vimrc are managed by Vim Plugs.
