@@ -5,4 +5,4 @@ Currently, the following environments are configured:
 - vimrc
 - kitty
 
-The plugins for vimrc are managed by Vim Plugs.
+The plugins for vimrc are managed by Vim Plugs. So, do run `PlugInstall` after the dotbot finishs its installation.
