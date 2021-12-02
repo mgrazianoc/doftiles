@@ -74,6 +74,7 @@ plugins=(
     git
     copydir
     web-search
+    kubectl
 )
 
 source $ZSH/oh-my-zsh.sh
