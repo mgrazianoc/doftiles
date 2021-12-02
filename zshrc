@@ -76,6 +76,7 @@ plugins=(
     web-search
     kubectl
     minikube
+    timer
 )
 
 source $ZSH/oh-my-zsh.sh
