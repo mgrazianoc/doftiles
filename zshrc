@@ -72,6 +72,8 @@ ZSH_THEME="spaceship"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
     git
+    copydir
+    web-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -121,6 +123,7 @@ znap prompt sindresorhus/pure
 # znap source marlonrichert/zsh-autocomplete
 znap source zsh-users/zsh-autosuggestions
 znap source zsh-users/zsh-syntax-highlighting
+
 
 ############################################################################################
 #                                        INIT
