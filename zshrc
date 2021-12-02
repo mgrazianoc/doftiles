@@ -75,6 +75,7 @@ plugins=(
     copydir
     web-search
     kubectl
+    minikube
 )
 
 source $ZSH/oh-my-zsh.sh
