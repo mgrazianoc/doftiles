@@ -42,6 +42,9 @@ let mapleader = "\<space>"
 nmap <leader>k :nohlsearch<CR>
 nmap <leader>Q :bufdo bdelete<cr>
 
+nmap <leader>b :bprev<CR>
+nmap <leader>n :bnext<CR>
+
 " Allow gf to open non-existent files
 map gf :edit <cfile><cr>
 
@@ -75,6 +78,7 @@ source ~/.config/vim/plugins/nerdTree.vim
 source ~/.config/vim/plugins/fzf.vim
 source ~/.config/vim/plugins/floatterm.vim
 source ~/.config/vim/plugins/fugitive.vim
+source ~/.config/vim/plugins/vimwiki.vim
 
 call plug#end()
 
